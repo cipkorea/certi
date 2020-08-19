@@ -34,7 +34,7 @@ body {
   color: #272727;
 }
 
-#content_title{
+.content_title{
   font-size: 3rem;
   font-weight: 600;
   font-stretch: normal;
@@ -63,7 +63,13 @@ body {
   border-left: solid;
 }
 
-#main_text p{
+.main_text p{
   font-size: 1rem;
   font-family: IBM Plex Sans KR;
 }
+
+.img_temp{
+  height: 20rem;
+  background-color: grey;
+}
+

@@ -58,7 +58,7 @@ body {
   margin-bottom: 2rem;
 }
 
-.index{
+.index, .index a{
   opacity: 0.43;
   font-size: 1rem;
   font-weight: normal;

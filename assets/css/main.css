@@ -8,6 +8,10 @@ body {
   height: 5rem;
 }
 
+.row_space_content{
+  height: 13rem;
+}
+
 #title{
   font-size: 1.5rem;
   font-weight: 600;
@@ -39,4 +43,27 @@ body {
   letter-spacing: normal;
   text-align: left;
   color: #272727;
+  margin-bottom: 2rem;
+}
+
+.index{
+  opacity: 0.43;
+  font-size: 1rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.52;
+  letter-spacing: normal;
+  text-align: left;
+  color: #272727;
+  margin-top: 0.5rem;
+}
+
+.border_left {
+  border-left: solid;
+}
+
+#main_text p{
+  font-size: 1rem;
+  font-family: IBM Plex Sans KR;
 }

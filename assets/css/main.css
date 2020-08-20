@@ -16,15 +16,20 @@ html {
 
 @media (min-width: 850px) {
   html { font-size: 60%; }
-  .learning_course{ width: 35%;}
+  .learning_course{ width: 50%;}
 }
 
-@media (min-width: 992px) {
+@media (min-width: 924px) {
   html { font-size: 70%; }
-  .learning_course{ width: 35%;}
+  .learning_course{ width: 45%;}
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1084px) {
+  html { font-size: 80%; }
+  .learning_course{ width: 40%;}
+}
+
+@media (min-width: 1300px) {
   html { font-size: 100%; }
   .learning_course{ width: 35%;}
 }
@@ -216,4 +221,9 @@ body {
 .btn:focus,.btn:active {
   outline: none !important;
   box-shadow: none;
+}
+
+.obtain_certi {
+  text-align: right;
+  padding-right: 2rem;
 }

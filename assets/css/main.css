@@ -1,4 +1,34 @@
-html { font-size: 100%; }
+html {
+  font-size: 50%;
+}
+
+.learning_course{
+  width: 50%;
+  border-radius:2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left:1.5rem;
+  background-color: #ff842b;
+  text-align: center;
+  color:white;
+  font-size: 0.8rem;
+}
+
+@media (min-width: 850px) {
+  html { font-size: 60%; }
+  .learning_course{ width: 35%;}
+}
+
+@media (min-width: 992px) {
+  html { font-size: 70%; }
+  .learning_course{ width: 35%;}
+}
+
+@media (min-width: 1400px) {
+  html { font-size: 100%; }
+  .learning_course{ width: 35%;}
+}
+
 
 body {
   font-size: 1rem;
@@ -7,21 +37,7 @@ body {
   margin: 0;
 }
 
-@media (max-width: 300px) {
-  html { font-size: 50%; }
-}
 
-@media (min-width: 500px) {
-  html { font-size: 60%; }
-}
-
-@media (min-width: 700px) {
-  html { font-size: 70%; }
-}
-
-@media (min-width: 1200px) {
-  html { font-size: 100%; }
-}
 
 .row_space{
   height: 5rem;
@@ -87,7 +103,8 @@ body {
   letter-spacing: normal;
   text-align: left;
   color: #272727;
-  margin-top: 0.5rem;
+  /* margin-top: 0.5rem; */
+  height: 2rem;
 }
 
 .border_left {
@@ -95,19 +112,16 @@ body {
 }
 
 .main_text p{
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-family: IBM Plex Sans KR;
 }
 
-.img_temp{
-  height: 20rem;
-  background-color: grey;
-}
 
 .course-ract{
   height: 20rem;
   border-radius: 1rem;
-  border: solid 1px #bab8b8;
+  border: solid 1px #d8d8d8;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
 }
 
 .course-ract .row {
@@ -130,7 +144,8 @@ body {
   display: flex;
   flex-direction: column;
   color: white;
-  padding-left:1rem;
+  padding-left:1.5rem;
+  font-size: 1.2rem;
 }
 
 .professional_level{
@@ -142,7 +157,8 @@ body {
   display: flex;
   flex-direction: column;
   color: white;
-  padding-left:1rem;
+  padding-left:1.5rem;
+  font-size: 1.2rem;
 }
 
 .advanced_level{
@@ -154,20 +170,11 @@ body {
   display: flex;
   flex-direction: column;
   color: white;
-  padding-left:1rem;
+  padding-left:1.5rem;
+  font-size: 1.2rem;
 }
 
-.learning_course{
-  width: 35%;
-  border-radius:2rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  margin-left:1.5rem;
-  background-color: #ff842b;
-  text-align: center;
-  color:white;
-  font-size: 0.8rem;
-}
+
 
 .certification{
   width: 35%;
@@ -175,7 +182,7 @@ body {
   margin-top: 1rem;
   margin-bottom: 1rem;
   margin-left:1.5rem;
-  background-color: #606060;
+  background-color: #43c912;
   text-align: center;
   color:white;
   font-size: 0.8rem;
@@ -183,7 +190,8 @@ body {
 
 .course_title{
   margin-left: 1.5rem;
-  font-size: 1.5rem;
+  margin-right: 0.5rem;
+  font-size: 1.3rem;
   font-weight: 600;
   font-stretch: normal;
   font-style: normal;
@@ -203,4 +211,9 @@ body {
 
 .card_space{
   margin-top: 1.5rem;
+}
+
+.btn:focus,.btn:active {
+  outline: none !important;
+  box-shadow: none;
 }

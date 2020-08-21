@@ -14,24 +14,71 @@ html {
   font-size: 0.8rem;
 }
 
+.course-ract{
+  height: 20rem;
+  border-radius: 1rem;
+  border: solid 1px #d8d8d8;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+
+.course-ract .row {
+  margin-left : 0px;
+  margin-right: 0px;
+}
+
+.course-ract .row .col{
+  padding-right: 0px;
+  color : #909090;
+  padding-left: 1.5rem;
+}
+
+
+.role-ract{
+  height: 17rem;
+  border-radius: 1rem;
+  border: solid 1px #d8d8d8;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+
+.role-ract .row {
+  margin-left : 0px;
+  margin-right: 0px;
+}
+
+.role-ract .row .col{
+  padding-right: 0px;
+  color : #909090;
+  padding-left: 1.5rem;
+}
+
+.badge_img{
+  height: 20%;
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
 @media (min-width: 850px) {
   html { font-size: 60%; }
   .learning_course{ width: 50%;}
+  .badge_img{height: 10%;}
 }
 
 @media (min-width: 924px) {
   html { font-size: 70%; }
   .learning_course{ width: 45%;}
+  .badge_img{height: 15%;}
 }
 
 @media (min-width: 1084px) {
   html { font-size: 80%; }
   .learning_course{ width: 40%;}
+  .badge_img{height: 18%;}
 }
 
 @media (min-width: 1300px) {
   html { font-size: 100%; }
   .learning_course{ width: 35%;}
+  .badge_img{height: 20%;}
 }
 
 
@@ -65,13 +112,11 @@ body {
 
 #index_title{
   font-size: 1rem;
-  font-weight: bold;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.52;
   letter-spacing: normal;
   text-align: left;
-  color: #272727;
 }
 
 .content_title{
@@ -99,7 +144,6 @@ body {
 }
 
 .index, .index a{
-  opacity: 0.43;
   font-size: 1rem;
   font-weight: normal;
   font-stretch: normal;
@@ -107,7 +151,7 @@ body {
   line-height: 1.52;
   letter-spacing: normal;
   text-align: left;
-  color: #272727;
+  color: #909090;
   /* margin-top: 0.5rem; */
   height: 2rem;
 }
@@ -122,23 +166,7 @@ body {
 }
 
 
-.course-ract{
-  height: 20rem;
-  border-radius: 1rem;
-  border: solid 1px #d8d8d8;
-  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-}
 
-.course-ract .row {
-  margin-left : 0px;
-  margin-right: 0px;
-}
-
-.course-ract .row .col{
-  padding-right: 0px;
-  color : #909090;
-  padding-left: 1.5rem;
-}
 
 .associate_level{
   height:20%;
@@ -208,10 +236,9 @@ body {
   height:2.5rem;
 }
 
-.badge_img{
-  height: 20%;
-  margin-left: 1.5rem;
-  margin-bottom: 1rem;
+
+.role_badge_img{
+  height: 10%;
 }
 
 .card_space{
@@ -226,4 +253,10 @@ body {
 .obtain_certi {
   text-align: right;
   padding-right: 2rem;
+}
+
+
+.index > .nav-a.active  {
+  color:#272727;
+  font-weight: bold;
 }

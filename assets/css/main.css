@@ -2,6 +2,7 @@ html {
   font-size: 50%;
 }
 
+
 .learning_course{
   width: 50%;
   border-radius:2rem;
@@ -161,7 +162,7 @@ body {
 }
 
 .main_text p{
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-family: IBM Plex Sans KR;
 }
 
